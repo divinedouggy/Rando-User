@@ -24,7 +24,8 @@ function App() {
   return (
     <div className="App">
       <header>Rando User</header>
-      <button onClick={refreshUser}>Refresh</button>
+      <br></br>
+      <button onClick={refreshUser}>Get New User</button>
       {/* <div>{JSON.stringify(currentUser)}</div> */}
       <UserSummary userData={currentUser}/>
 
